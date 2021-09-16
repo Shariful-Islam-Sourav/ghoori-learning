@@ -1,0 +1,8 @@
+/* =======================Custom CSS=============== */
+#hero-section {
+  background:linear-gradient(#03295f8c, #053c8898), url(../images/banner.jpg) no-repeat;
+  height: calc(100% - 84px);
+  background-size: cover;
+  background-position: center;
+}
+

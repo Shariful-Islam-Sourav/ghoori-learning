@@ -1,12 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ghoori Learning</title>
-</head>
-<body>
-    
-</body>
+    <!-- Favicon Link -->
+    <link rel="shortcut icon" href="images/fav.png" type="image/x-icon" />
+    <!-- Tailwind Link CSS -->
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- =================Header================== -->
+    <header class="h-screen">
+      <nav class="flex justify-evenly container mx-auto my-6">
+        <div class="flex items-center" id="nav-left">
+          <img class="mr-6" src="images/logo.png" alt="logo" width="180px" />
+          <a class="mr-4" href="#">হোম</a>
+          <a class="mr-4" href="#">কোর্সসমূহ</a>
+          <a class="mr-4" href="#">বিবিসি জানালা</a>
+          <a class="mr-4" href="#">ব্লগ</a>
+        </div>
+        <div class="flex items-center" id="nav-right">
+          <a class="mr-5"
+            ><i class="fas fa-headphones-alt mr-1"></i
+            ><span>০৯২৩৪২১২৩৪</span></a
+          >
+          <div class="border border-gray-300 rounded p-1 mr-3">
+            <input
+              class="focus:outline-none w-25"
+              type="text"
+              placeholder="কোর্স সার্চ"
+            />
+            <i class="fas fa-search text-gray-400"></i>
+          </div>
+          <a
+            class="
+              border border-gray-300
+              rounded
+              py-2
+              px-4
+              mr-2
+              text-red-700
+              font-semibold
+            "
+            href="#"
+            >লগ ইন</a
+          >
+          <a
+            class="border border-gray-300 rounded py-2 px-4 bg-black text-white"
+            href="#"
+            >সাইন আপ</a
+          >
+        </div>
+      </nav>
+      <!-- ===================Hero Section================ -->
+      <section class="flex items-center" id="hero-section">
+        <div class="container mx-auto">
+          <h2 class="text-7xl font-semibold text-white leading-normal">
+            বদলে ফেলুন আপনার
+          </h2>
+          <h2 class="text-7xl font-semibold text-white">জীবন</h2>
+          <p class="text-xl text-white mt-4 my-10">
+            দক্ষ করে গড়ে তুলুন নিজেকে ঘুড়ি লার্নিং এ সাশ্রয়ী মূল্যের সব কোর্স এর
+            মাধ্যমে।
+          </p>
+          <div class="flex">
+            <a class="rounded py-3 px-6 bg-red-600 text-white
+            mr-3" href="#"
+            >বিবিসি জানালার কোর্স</a
+          >
+          <a
+            class="rounded py-3 px-6 bg-white text-red-500 font-bold flex"
+            href="#"
+          >
+            <img src="images/udemy.png" alt="logo" width="50px"/>
+            Gift Card
+          </a>
+          </div>
+        </div>
+      </section>
+    </header>
+    <!-- Fontawesome Link -->
+    <script
+      src="https://kit.fontawesome.com/95ec25044e.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
