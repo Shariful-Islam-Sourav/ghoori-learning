@@ -1,11 +1,15 @@
 /* =======================Custom CSS=============== */
 #hero-section {
-  background:linear-gradient(#03295f8c, #053c8898), url(../images/banner.jpg) no-repeat;
+  background: linear-gradient(#03295f8c, #053c8898),
+    url(../images/banner.jpg) no-repeat;
   height: calc(100% - 84px);
   background-size: cover;
   background-position: center;
 }
 
-#test{
-    margin-top: -70px;
+#info-ghoori {
+  margin-top: -70px;
+}
+#gift-ghoori {
+  background: linear-gradient(#7e7772, #47423F);
 }
