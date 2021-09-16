@@ -11,5 +11,8 @@
   margin-top: -70px;
 }
 #gift-ghoori {
-  background: linear-gradient(#7e7772, #47423F);
+  background: linear-gradient(#7e7772, #47423f);
+}
+.secondary-bg-ghoori {
+  background: #f4f8fa;
 }
